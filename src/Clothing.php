@@ -14,11 +14,11 @@ use Faker\Provider\Base;
 class Clothing extends Base
 {
     public static $clothingColors = [
-        'blue', 'green', 'orange', 'red', 'purple', 'white', 'black', 'gray', 'brown'
+        'blue', 'green', 'orange', 'red', 'purple', 'white', 'black', 'gray', 'brown', 'pink', 'yellow'
     ];
 
     public static $clothingSizes = [
-        'XS', 'S', 'M', 'L', 'XL'
+        'XS', 'S', 'M', 'L', 'XL', 'XXL'
     ];
 
     protected static $clothingFabrics = [
@@ -26,7 +26,7 @@ class Clothing extends Base
     ];
 
     protected static $clothingPurposes = [
-        'tennis', 'yoga',
+        'tennis', 'yoga', 'party',
     ];
 
     protected static $clothingPatterns = [
@@ -35,11 +35,15 @@ class Clothing extends Base
 
     protected static $clothingAdjectives = [
         'beautiful', 'cool', 'trendy', 'hip', 'urban', 'wide', 'short', 'long', 'casual',
-        'stylish', 'extravagant', 'cosy'
+        'stylish', 'extravagant', 'cosy', 'sexy'
     ];
 
     protected static $clothingTypes = [
-        'pants', 'skirt', 'trousers', 't-shirt', 'socks', 'sweat shirt', 'jacket', 'polo'
+        'pants', 'skirt', 'trousers', 't-shirt', 'socks', 'sweat shirt', 'jacket', 'polo', 'shorts',
+        'sweatpants', 'dress', 'costume', 'apron', 'bathing suit', 'bathing trousers', 'bikini',
+        'blouse', 'body stocking', 'bodysuit', 'coat', 'dressing gown', 'gilet', 'gloves', 'stockings',
+        'jacket', 'jumper', 'jump suit', 'kimono', 'leotard', 'cloak', 'mantle', 'nightdress', 'night gown',
+        'overcoat', 'overskirt', 'peignoir', 'pullover', 'pyjamas', 'sarong', 'shirt', 'swimming trunks',
     ];
 
     protected static $clothingFormats = [
