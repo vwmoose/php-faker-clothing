@@ -1,6 +1,6 @@
 # PHP Faker clothing
 
-A pop music provider for 
+A clothing provider for 
 [fzaninotto/faker](https://github.com/fzaninotto/Faker)
 
 ## Installation
