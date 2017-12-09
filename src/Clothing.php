@@ -22,11 +22,12 @@ class Clothing extends Base
     ];
 
     protected static $clothingFabrics = [
-        'wool', 'velvet', 'felt', 'suede', 'denim', 'leather'
+        'wool', 'velvet', 'felt', 'suede', 'denim', 'leather', 'corduroy', 'flannel', 'chiffon', 'velour',
+        'gabardine', 'tweed', 'alpaca', 'silk'
     ];
 
     protected static $clothingPurposes = [
-        'tennis', 'yoga', 'party',
+        'tennis', 'yoga', 'party', 'swimming'
     ];
 
     protected static $clothingPatterns = [
@@ -40,23 +41,37 @@ class Clothing extends Base
 
     protected static $clothingTypes = [
         'pants', 'skirt', 'trousers', 't-shirt', 'socks', 'sweat shirt', 'jacket', 'polo', 'shorts',
-        'sweatpants', 'dress', 'costume', 'apron', 'bathing suit', 'bathing trousers', 'bikini',
+        'sweatpants', 'dress', 'costume', 'apron', 'suit', 'bathing trousers', 'bikini',
         'blouse', 'body stocking', 'bodysuit', 'coat', 'dressing gown', 'gilet', 'gloves', 'stockings',
         'jacket', 'jumper', 'jump suit', 'kimono', 'leotard', 'cloak', 'mantle', 'nightdress', 'night gown',
-        'overcoat', 'overskirt', 'peignoir', 'pullover', 'pyjamas', 'sarong', 'shirt', 'swimming trunks',
+        'overcoat', 'overskirt', 'peignoir', 'pullover', 'pyjamas', 'sarong', 'shirt', 'trunks',
     ];
 
     protected static $clothingFormats = [
         // yoga pants
         '{{clothingPurpose}} {{clothingType}}',
+        // trendy pants
+        '{{clothingAdjective}} {{clothingType}}',
+        // trendy blue pants
+        '{{clothingAdjective}} {{clothingColor}} {{clothingType}}',
         // blue pants
         '{{clothingColor}} {{clothingType}}',
         // blue yoga pants
         '{{clothingColor}} {{clothingPurpose}} {{clothingType}}',
         // blue/red paisley pants
-        '{{clothingColor}}-{{clothingColor}} {{clothingPattern}} {{clothingType}}',
+        '{{clothingColor}}/{{clothingColor}} {{clothingPattern}} {{clothingType}}',
         // denim pants
         '{{clothingFabric}} {{clothingType}}',
+        // blue denim pants
+        '{{clothingColor}} {{clothingFabric}} {{clothingType}}',
+        // blue pants (XL)
+        '{{clothingColor}} {{clothingType}} ({{clothingSize}})',
+        // blue denim pants (XL)
+        '{{clothingColor}} {{clothingFabric}} {{clothingType}} ({{clothingSize}})',
+        // blue denim yoga pants
+        '{{clothingColor}} {{clothingFabric}} {{clothingPurpose}} {{clothingType}}',
+        // trendy yoga pants
+        '{{clothingAdjective}} {{clothingPurpose}} {{clothingType}}',
     ];
 
     public function clothingColor()
