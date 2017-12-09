@@ -12,7 +12,7 @@ $output.= '# Clothing examples' . PHP_EOL . PHP_EOL;
 
 // generate 100 rows with data
 foreach (range(1, 100) as $i) {
-    $output .= $faker->clothing() . PHP_EOL;
+    $output .= '- ' . $faker->clothing() . PHP_EOL;
 }
 
 $output.= PHP_EOL;
