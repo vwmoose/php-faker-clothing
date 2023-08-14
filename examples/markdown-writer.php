@@ -3,7 +3,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $faker = \Faker\Factory::create();
-$faker->addProvider(new \RauweBieten\PhpFakerClothing\Clothing($faker));
+$faker->addProvider(new \Vwmoose\PhpFakerClothing\Clothing($faker));
 
 $output = '';
 
