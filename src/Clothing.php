@@ -6,7 +6,7 @@
  * Time: 22:25
  */
 
-namespace RauweBieten\PhpFakerClothing;
+namespace Vwmoose\PhpFakerClothing;
 
 
 use Faker\Provider\Base;
