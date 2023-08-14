@@ -1,7 +1,7 @@
 {
   "name": "vwmoose/php-faker-clothing",
   "require": {
-    "fzaninotto/faker": "^1.9.1"
+    "fzaninotto/faker": "v1.23.0"
   },
   "require-dev": {
     "symfony/var-dumper": "^3.3.9"
