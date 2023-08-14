@@ -1,5 +1,5 @@
 {
-  "name": "rauwebieten/php-faker-clothing",
+  "name": "vwmoose/php-faker-clothing",
   "require": {
     "fzaninotto/faker": "^1.9.1"
   },
@@ -8,7 +8,7 @@
   },
   "autoload": {
     "psr-4": {
-      "RauweBieten\\PhpFakerClothing\\": "src/"
+      "vwmoose\\PhpFakerClothing\\": "src/"
     }
   }
 }
