@@ -1,7 +1,7 @@
 {
   "name": "rauwebieten/php-faker-clothing",
   "require": {
-    "fzaninotto/faker": "^1.7"
+    "fzaninotto/faker": "^1.9.1"
   },
   "require-dev": {
     "symfony/var-dumper": "^3.3.9"
